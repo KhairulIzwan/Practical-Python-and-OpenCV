@@ -30,4 +30,4 @@ cv2.imshow("Manipulated", imageClone)
 
 # display image
 cv2.imshow("Image", image)
-cv2.waitKey(1)
+cv2.waitKey(0)
