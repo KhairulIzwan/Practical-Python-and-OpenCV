@@ -7,4 +7,4 @@
 
 4.  translation.py -- Understand how to tranlate/move image to left right etc.
 
-5.  rotation.py
+5.  rotate.py
