@@ -4,5 +4,3 @@
 2.  getting and setting -- Understand how to manipulate an image.
 
 3.  drawing.py -- Understand how to draw(line, rectangle, circle).
-
-4. New code
