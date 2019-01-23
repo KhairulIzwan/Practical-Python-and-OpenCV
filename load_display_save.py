@@ -14,9 +14,7 @@ image = cv2.imread(args["image"])
 
 # analyzing image
 rows, columns, channels = image.shape
-print("Height: %d" % rows)
-print("Width: %d" % columns)
-print("Channels: %d" % channels)
+print("Height: %d\nWidth: %d\nChannels: %d" % (rows, columns, channels))
 
 # display image
 cv2.imshow("Image", image)
