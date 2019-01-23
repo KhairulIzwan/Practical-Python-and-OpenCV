@@ -3,13 +3,14 @@ from __future__ import print_function
 import argparse
 import cv2
 
-
+# argument parse
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="Path to the image")
 args = vars(ap.parse_args())
 
 # load image
 image = cv2.imread(args["image"])
+# cloning an image
 imageClone = image.copy()
 
 # analyzing image
@@ -25,6 +26,7 @@ print("Pixel at (0, 0) - Red: %d, Green: %d, Blue: %d" % (r, g, b))
 corner = imageClone[0:100, 0:100]
 cv2.imshow("Corners", corner)
 
+# manipulating an image
 imageClone[0:100, 0:100] = (0, 255, 0)
 cv2.imshow("Manipulated", imageClone)
 
