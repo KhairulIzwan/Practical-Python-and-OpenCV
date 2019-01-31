@@ -21,6 +21,6 @@ blurred = cv2.GaussianBlur(gray, (11, 11), 0)
 canny = cv2.Canny(blurred, 30, 120)
 # cv2.imshow("Canny", canny)
 
-cv2.imshow("Edge Detection", np.hstack([gray, blurred, canny]))
+cv2.imshow("Edge Detection-1", np.hstack([gray, blurred, canny]))
 
 cv2.waitKey(0)
