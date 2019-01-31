@@ -28,7 +28,7 @@ cv2.imshow("Corners", corner)
 
 # manipulating an image
 imageClone[0:100, 0:100] = (0, 255, 0)
-cv2.imshow("Manipulated", imageClone)
+cv2.imshow("ubah_laaa", imageClone)
 
 # display image
 cv2.imshow("Image", image)
