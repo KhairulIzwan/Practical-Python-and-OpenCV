@@ -11,7 +11,7 @@ ap.add_argument("-i", "--image", required=True, help="Path to the image")
 args = vars(ap.parse_args())
 
 # original image
-image = cv2.imread(args["mizan"])
+image = cv2.imread(args["mizan"]
 imageClone = image.copy()
 
 chans = cv2.split(imageClone)
