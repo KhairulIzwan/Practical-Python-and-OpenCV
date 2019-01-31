@@ -17,7 +17,7 @@ rows, columns, channels = image.shape
 print("Height: %d\nWidth: %d\nChannels: %d" % (rows, columns, channels))
 
 # display image
-cv2.imshow("Image", image)
+cv2.imshow("dayat", image)
 cv2.waitKey(0)
 
 # save image
